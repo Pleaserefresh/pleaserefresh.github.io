@@ -23,7 +23,6 @@ body {
     margin-top: 30px;
     float: right;
     width: 10%;
-    height: 10%;
 }
 
 .greeting {
@@ -45,7 +44,7 @@ body {
 .menu {
     border-color: cornflowerblue;
     border-radius: 85% 0 80% 0;
-    padding: 15px;
+    padding: 5px;
     font-family: 'Courier New', Courier, monospace;
     color: olivedrab;
     font-size: 12px;
