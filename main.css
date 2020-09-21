@@ -2,13 +2,13 @@ body {
     background-color: cornflowerblue;
     font-family: 'Courier New', Courier, monospace;
     margin: 35px;
-    align-content: center;
 }
 
 .heading {
-    border: 6px cornsilk inset;
+    align-self: center;
+    border: 4px cornsilk inset;
     background: linear-gradient(orange, gold, cornsilk, lightGreen, green);
-    padding: 15px;
+    padding: 20px;
     text-align: center;
     margin: 10px 0 10px 0;
     height: 150px;
@@ -28,21 +28,21 @@ body {
 }
 
 .content {
-    border: 6px cornsilk inset;
+    border: 4px cornsilk inset;
     background: linear-gradient(green, lightGreen, white, chocolate, grey);
     padding: 20px;
     text-align: center;
     font-size: 14px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: olivedrab;
+    color: black;
     height: 350px;
     width: 650px;
 }
 
 .menu {
     border-color: cornflowerblue;
-    border-radius: 85% 0 80% 0;
-    padding: 5px;
+    border-radius: 85% 0 80% 30%;
+    padding: 10px;
     font-family: 'Courier New', Courier, monospace;
     color: olivedrab;
     font-size: 12px;
@@ -52,8 +52,8 @@ body {
 
 .bottom {
     margin: 10px 0 10px 0;
-    border: 2px cornsilk inset;
+    border: 4px cornsilk inset;
     font-size: small;
     text-align: center;
-    width: 100%;
+    width: 690px;
 }
