@@ -7,10 +7,10 @@ body {
 .heading {
     border: 6px cornsilk inset;
     background: linear-gradient(orange, gold, cornsilk, lightGreen, green);
-    padding: 10px;
+    padding: 15px;
     text-align: center;
     margin: 10px 0 10px 0;
-    height: 150px;
+    height: 250px;
 }
 
 .logo {
