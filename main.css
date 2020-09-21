@@ -2,6 +2,7 @@ body {
     background-color: cornflowerblue;
     font-family: 'Courier New', Courier, monospace;
     margin: 35px;
+    align-content: center;
 }
 
 .heading {
@@ -10,8 +11,8 @@ body {
     padding: 15px;
     text-align: center;
     margin: 10px 0 10px 0;
-    height: 250px;
-    width: 450px;
+    height: 150px;
+    width: 650px;
 }
 
 .logo {
@@ -34,8 +35,8 @@ body {
     font-size: 14px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: olivedrab;
-    height: 250px;
-    width: 450px;
+    height: 350px;
+    width: 650px;
 }
 
 .menu {
@@ -54,4 +55,5 @@ body {
     border: 2px cornsilk inset;
     font-size: small;
     text-align: center;
+    width: 100%;
 }
