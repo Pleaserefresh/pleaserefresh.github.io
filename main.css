@@ -11,6 +11,7 @@ body {
     text-align: center;
     margin: 10px 0 10px 0;
     height: 250px;
+    width: 450px;
 }
 
 .logo {
@@ -33,6 +34,8 @@ body {
     font-size: 14px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: olivedrab;
+    height: 250px;
+    width: 450px;
 }
 
 .menu {
@@ -43,6 +46,7 @@ body {
     color: olivedrab;
     font-size: 12px;
     background-color: cornsilk;
+    margin: 10px;
 }
 
 .bottom {
