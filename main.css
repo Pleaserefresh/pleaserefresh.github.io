@@ -6,7 +6,7 @@ body {
 
 .heading {
     border: 6px cornsilk dotted;
-    background: linear-gradient(orange, gold, white, lightGreen, green);
+    background: linear-gradient(orange, gold, cornsilk, lightGreen, green);
     padding: 10px;
     text-align: center;
     margin: 10px 0 10px 0;
