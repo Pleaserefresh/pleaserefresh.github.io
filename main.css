@@ -5,7 +5,7 @@ body {
 }
 
 .heading {
-    border: 6px cornsilk dotted;
+    border: 6px cornsilk inset;
     background: linear-gradient(orange, gold, cornsilk, lightGreen, green);
     padding: 10px;
     text-align: center;
@@ -33,7 +33,7 @@ body {
 }
 
 .content {
-    border: 6px cornsilk dotted;
+    border: 6px cornsilk inset;
     background: linear-gradient(green, lightGreen, white, chocolate, grey);
     padding: 20px;
     text-align: center;
@@ -54,7 +54,7 @@ body {
 
 .bottom {
     margin: 10px 0 10px 0;
-    border: 2px cornsilk solid;
+    border: 2px cornsilk inset;
     font-size: small;
     text-align: center;
 }
