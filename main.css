@@ -16,7 +16,7 @@ body {
     width: 15%;
     height: 15%;
     float: left;
-    position: relative;
+    position: absolute;
 }
 
 .sun {
@@ -24,7 +24,7 @@ body {
     float: right;
     width: 10%;
     height: 10%;
-    position: relative;
+    position: absolute;
 }
 
 .greeting {
