@@ -1,0 +1,59 @@
+body {
+    background-color: cornflowerblue;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50px;
+}
+
+.heading {
+    border: 6px cornsilk dotted;
+    background: linear-gradient(orange, gold, white, lightGreen, green);
+    padding: 10px;
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+.logo {
+    width: 15%;
+    height: 15%;
+    float: left;
+}
+
+.sun {
+    margin-top: 30px;
+    float: right;
+    width: 10%;
+    height: 10%;
+}
+
+.greeting {
+    font-size: 42px;
+    font-weight: bold;
+    color: chocolate;
+}
+
+.content {
+    border: 6px cornsilk dotted;
+    background: linear-gradient(green, lightGreen, white, chocolate, grey);
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: olivedrab;
+}
+
+.menu {
+    border-color: cornflowerblue;
+    border-radius: 85% 0 80% 0;
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: olivedrab;
+    font-size: 15px;
+    background-color: cornsilk;
+}
+
+.bottom {
+    margin: 10px 0 10px 0;
+    border: 2px cornsilk solid;
+    font-size: 10px;
+    text-align: center;
+}
