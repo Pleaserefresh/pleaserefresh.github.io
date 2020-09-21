@@ -26,7 +26,7 @@ body {
 }
 
 .greeting {
-    font-size: x-large;
+    font-size: 24px;
     font-weight: bold;
     color: chocolate;
 }
@@ -36,7 +36,7 @@ body {
     background: linear-gradient(green, lightGreen, white, chocolate, grey);
     padding: 20px;
     text-align: center;
-    font-size: normal;
+    font-size: 14px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: olivedrab;
 }
@@ -47,7 +47,7 @@ body {
     padding: 15px;
     font-family: 'Courier New', Courier, monospace;
     color: olivedrab;
-    font-size: medium;
+    font-size: 12px;
     background-color: cornsilk;
 }
 
