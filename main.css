@@ -19,12 +19,6 @@ body {
     margin: 10px;
 }
 
-.sun {
-    margin-top: 30px;
-    float: right;
-    width: 10%;
-}
-
 .greeting {
     font-size: 24px;
     font-weight: bold;
