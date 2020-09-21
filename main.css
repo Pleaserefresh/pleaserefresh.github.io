@@ -16,6 +16,7 @@ body {
     width: 15%;
     height: 15%;
     float: left;
+    margin: 10px;
     position: absolute;
 }
 
