@@ -30,6 +30,7 @@ body {
     background: linear-gradient(green, lightGreen, white, chocolate, grey);
     padding: 20px;
     text-align: center;
+    text-justify: auto;
     font-size: 14px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
