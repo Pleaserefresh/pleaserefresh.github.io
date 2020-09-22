@@ -11,8 +11,6 @@ body {
     padding: 20px;
     text-align: center;
     margin: 10px 0 10px 0;
-    height: 150px;
-    width: 650px;
 }
 
 .logo {
@@ -35,8 +33,6 @@ body {
     font-size: 14px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
-    height: 350px;
-    width: 650px;
 }
 
 .menu {
@@ -55,5 +51,4 @@ body {
     border: 4px cornsilk inset;
     font-size: small;
     text-align: center;
-    width: 690px;
 }
