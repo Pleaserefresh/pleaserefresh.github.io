@@ -7,7 +7,7 @@ body {
 .heading {
     align-self: center;
     border: 4px cornsilk inset;
-    background: linear-gradient(orange, gold, cornsilk, lightGreen, green);
+    background-color: cornsilk;
     padding: 20px;
     text-align: center;
     margin: 10px 0 10px 0;
@@ -33,7 +33,7 @@ body {
 
 .content {
     border: 4px cornsilk inset;
-    background: linear-gradient(green, lightGreen, white, chocolate, grey);
+    background-color: cornsilk);
     padding: 20px;
     text-align: center;
     text-justify: auto;
