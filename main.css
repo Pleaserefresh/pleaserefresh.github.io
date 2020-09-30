@@ -19,6 +19,12 @@ body {
     margin: 10px;
 }
 
+.os {
+    height: 40px;
+    float: right;
+    margin: 20px;
+}
+
 .greeting {
     font-size: 24px;
     font-weight: bold;
