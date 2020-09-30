@@ -56,6 +56,7 @@ body {
 .bottom {
     margin: 10px 0 10px 0;
     border: 4px cornsilk inset;
+    background-color: cornsilk;
     font-size: small;
     text-align: center;
 }
