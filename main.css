@@ -60,3 +60,15 @@ body {
     font-size: small;
     text-align: center;
 }
+
+a {
+    color: cornflowerblue;
+}
+
+a:hover {
+    color: cornflowerblue;
+}
+
+a:active {
+    color: cornflowerblue;
+}
