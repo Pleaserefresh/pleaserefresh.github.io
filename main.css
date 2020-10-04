@@ -73,3 +73,7 @@ a:hover {
 a:active {
     color: olivedrab;
 }
+ .gallery img {
+     border-radius: 100%;
+     border-image-width: 50%;
+ }
