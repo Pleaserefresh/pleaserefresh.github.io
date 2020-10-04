@@ -76,6 +76,4 @@ a:active {
  .gallery img {
      border: solid olivedrab 3px;
      border-radius: 100% 100% 100% 100%;
-     border-image-width: 10%;
-     border-image-slice: 10%;
  }
