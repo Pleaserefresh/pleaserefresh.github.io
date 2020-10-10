@@ -1,6 +1,21 @@
 <!doctype html>
 <html>
 <style>
+    @font-face {
+        font-family: "8bit";
+        src: url("8bitOperatorPlusSC-Bold.ttf")
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        text-align: center;
+        font-family: "8bit";
+    }
+    
     html {
         height: 100%;
         color: #777;
@@ -9,6 +24,9 @@
     }
     
     body {
+        text-align: justify;
+        max-width: 910px;
+        min-width: 910px;
         background: black;
         margin-top: 20px;
         padding-top: 10px;
@@ -16,45 +34,52 @@
         padding-left: 30px;
         margin-right: 100px;
         padding-right: 30px;
+        background-image: url(oak-bg-m-dark.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
     }
     
     header {
+        background-color: black;
         text-align: center;
         width: 900px;
+        height: 105px;
         margin: 5px;
-        width: 100%;
     }
     
     nav {
+        background-color: black;
         text-align: center;
         width: 900px;
         margin: 5px;
-        width: 100%;
     }
     
     aside {
+        text-align: center;
+        background-color: black;
         float: right;
         position: relative;
         width: 200px;
-        border: #777 1px dotted;
-        text-align: center;
-    }
-    
-    h3 {
-        text-align: center;
+        margin-top: 14px;
+        margin-right: 5px;
+        margin-bottom: 5px;
     }
     
     article {
+        background-color: black;
         width: 900px;
         margin: 5px;
     }
     
     section {
-        width: max-content;
+        background-color: black;
+        width: 900px;
         margin: 5px;
     }
     
     footer {
+        background-color: black;
         text-align: center;
         margin-top: 50px;
         width: 900px;
@@ -71,50 +96,75 @@
         padding-right: 30px;
     }
     
+    p {
+        padding: 10px;
+    }
+    
     .logo {
         width: 10%;
         float: left;
+    }
+    
+    .about {
+        width: 690px;
     }
 </style>
 
 <head>
     <meta charset="UTF-8" />
-    <title>PleaseRefresh - webEnt</title>
+    <title>webEnt</title>
     <script src="https://kit.fontawesome.com/bf0c5714a3.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header id="home">
         <img class="logo" src="oak-tree.png" alt="logo">
-        <h1>PleaseRefresh - webEnt</h1>
+        <h1>webEnt</h1>
     </header>
     <nav> <a href="#home">STAY HOME</a> <a href="#article">ARTICLES</a> <a href="#project">PORTFOLIO</a></nav>
     <aside>
-        <h3>ASIDE</h3>
+        <h3>A-SIDE</h3>
+        It is always fun to get feedback
+        <br>leave me one on social media
         <br>
         <a href="https://twitter.com/Jacek69657885" target="_blank"><i class="fab fa-twitter" ></i></a>
     </aside>
-    <article id="article">
+    <article class="about" id="article">
         <h3>ABOUT ME</h3>
+        <hr>
         <p>
-            I was born, rised and live in Cracow from 1989. My passion is MTB, Gaming, and writing some code
+            I was born, rised and live in Cracow from 1989. My passion is MTB, forest, Gaming, and writing some code
+            <br> in forest I like to spend time on MTBike and take a deep breath of fresh air around and Air it self.
+            <br> I like to play retro games like Contra, Mario, Chess and LoL. Board games are second in the list.
         </p>
         <p>
-            I'm crazy about OpenSource and I want to be part of this community.
+            I am a big fan of OpenSource and I want to be part of this community.
             <br>That is why i will share with you those things that i create or reuse.
         </p>
     </article>
     <article>
         <h3>ARTICLES</h3>
-        <p>
+        <hr>
 
+        <h4>"First Artcile"</h4>
+        <p>
+            Maybe my first article on website should be about the need of learning? What we get from learning and what can we give back to the World for that opportunity we got from Mother Earth? It’s not hard to say that people got everything because of the science
+            and learning, but we should notice that it seems that we forgot about fact why we can get all those things we have. We ,as people, are able to space travel, to discover our world and underwater world as well, we are changing not only our reality,
+            but reality of Worlds fauna and flora too.
+            <br>
+            <em>PleaseRefresh 10 OCT 2020</em>
         </p>
+
     </article>
     <section id="project">
         <h3>PORTFOLIO</h3>
+        <hr>
+        <p>
+            First of all, this site is made by me.
+        </p>
 
     </section>
-    <footer> MadeInPoland by PleaseRefresh 2020</footer>
+    <footer> PleaseRefresh 2020</footer>
 </body>
 
 </html>
